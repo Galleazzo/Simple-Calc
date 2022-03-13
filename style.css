@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: purple;
+}
+
+article{
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;   
+    background-color: rgb(255, 89, 89);
+    color: white;
+
+}
+
+#calc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+#num1{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+#num2{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#som{
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff2222;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+
+#som:hover{
+    background-color:#b91818 ;
+    cursor: pointer;
+}
+
+#res{
+    font-size: 25px;
+}

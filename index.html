@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article>
+        <h1>
+            Calculadora
+        </h1>
+        <p>Digite o valor que deseja:</p>
+        <div id="calc">
+            <input type="number" name="" id="num1">
+            <p>+</p>
+            <input type="number" name="" id="num2">
+        </div>
+            <input type="button" value="Somar" id="som" onclick="somar()">
+        
+        <p id="res">Resultado</p>
+    </article>
+
+    <script>
+        function somar(){
+
+            var n1=document.getElementById('num1')
+            var n2=document.getElementById('num2')
+            var res=document.getElementById('res')
+
+            var n1=Number(n1.value)
+            var n2=Number(n2.value)
+            var s=n1+n2
+
+            res.innerHTML=s
+        }
+
+
+    </script>
+</body>
+</html>
